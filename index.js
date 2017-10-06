@@ -1,6 +1,6 @@
 var through = require('through2');
 var gutil = require('gulp-util');
-import htmlToAmp from 'html-to-amp';
+var htmlToAmp = require('html-to-amp');
 
 //Gulp wrapper plugin for html-to-amp
 module.exports = function(){
@@ -10,7 +10,7 @@ module.exports = function(){
     gutil.log('gulp-html-to-amp: AMP-ifying ' + file + '...');
 
     const html = file.contents.toString();
-    htmlToAmp(html, (err, amp) => {
+    htmlToAmp.htmlToAmp(html, (err, amp) => {
       if (err) {
         throw err;
       };
