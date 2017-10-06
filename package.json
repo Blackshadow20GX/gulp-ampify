@@ -9,6 +9,9 @@
   "keywords": [
     "gulpplugin"
   ],
+  "dependencies": {
+    "html-to-amp":"2.0.2"
+  },
   "author": "Marc Hanley",
   "license": "MIT",
   "repository": {
