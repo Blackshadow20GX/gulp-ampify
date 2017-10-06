@@ -10,7 +10,8 @@
     "gulpplugin"
   ],
   "dependencies": {
-    "html-to-amp": "^2.0.2"
+    "html-to-amp": "^2.0.2",
+    "babel": "^6.23.0"
   },
   "author": "Marc Hanley",
   "license": "MIT",
