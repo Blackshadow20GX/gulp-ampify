@@ -1,0 +1,14 @@
+{
+  "name": "gulp-html-to-amp",
+  "version": "1.0.4",
+  "description": "Gulp wrapper for HTML-to-AMP package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'No tests found'"
+  },
+  "keywords": [
+    "gulpplugin"
+  ],
+  "author": "Marc Hanley",
+  "license": "MIT"
+}
