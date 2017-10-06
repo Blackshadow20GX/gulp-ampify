@@ -1,6 +1,6 @@
 {
   "name": "gulp-html-to-amp",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Gulp wrapper for HTML-to-AMP package",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,8 @@
   ],
   "author": "Marc Hanley",
   "license": "MIT",
-  "repository" :
-  { "type" : "git"
-  , "url" : "https://github.com/Blackshadow20GX/gulp-html-to-amp"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Blackshadow20GX/gulp-html-to-amp"
   }
 }
