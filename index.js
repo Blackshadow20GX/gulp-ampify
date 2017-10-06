@@ -1,7 +1,6 @@
 var through = require('through2');
 var gutil = require('gulp-util');
-var htmltoamp = require('html-to-amp');
-import htmlToAmp from 'html-to-amp';
+var htmltoamp = require('html-to-amp').htmltoamp();
 
 //Gulp wrapper plugin for html-to-amp
 module.exports = function(){
