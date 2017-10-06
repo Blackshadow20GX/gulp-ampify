@@ -10,5 +10,9 @@
     "gulpplugin"
   ],
   "author": "Marc Hanley",
-  "license": "MIT"
+  "license": "MIT",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/Blackshadow20GX/gulp-html-to-amp"
+  }
 }
