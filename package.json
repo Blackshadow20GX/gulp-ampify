@@ -1,6 +1,6 @@
 {
   "name": "gulp-html-to-amp",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "Gulp wrapper for HTML-to-AMP package",
   "main": "dist/index.js",
   "scripts": {
@@ -11,11 +11,11 @@
     "gulpplugin"
   ],
   "dependencies": {
-    "ampify":"^0.2.6"
+    "ampify": "^0.2.6"
   },
   "devDependencies": {
-    "gutil":"^1.6.4",
-    "through2":"^2.0.3"
+    "gutil": "^1.6.4",
+    "through2": "^2.0.3"
   },
   "author": "Marc Hanley",
   "license": "MIT",
