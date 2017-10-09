@@ -9,10 +9,8 @@
   "keywords": [
     "gulpplugin"
   ],
-  "dependencies": {
-    "ampify": "^0.2.6"
-  },
   "devDependencies": {
+    "ampify": "^0.2.6",
     "gutil": "^1.6.4",
     "through2": "^2.0.3"
   },
