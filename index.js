@@ -8,10 +8,10 @@ module.exports = function(directory){
     if(file.isNull()) return cb(null, file);
     if(file.isStream()) return cb(new Error('gulp-html-to-amp: Streams not supported.'));
 
-    const html = file.contents.toString();
-    const amp = ampify(html, {cwd: directory}).toString();
     try{
-    file.contents = new Buffer(amp);
+      const html = file.contents.toString();
+      const amp = ampify(html, {cwd: directory}).toString();
+      file.contents = new Buffer(amp);
     }
     catch(error){ //Ignores invalid files put through ampify
     };
