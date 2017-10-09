@@ -10,8 +10,10 @@ module.exports = function(directory){
 
     try{
       const html = file.contents.toString();
-      const amp = ampify(html, {cwd: directory}).toString();
-      file.contents = new Buffer(amp);
+      if(!html.isNull()){
+        const amp = ampify(html, {cwd: directory}).toString();
+        file.contents = new Buffer(amp);
+      };
     }
     catch(error){ //Ignores invalid files put through ampify
     };
