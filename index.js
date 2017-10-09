@@ -10,7 +10,7 @@ module.exports = function(directory){
 
     try{
       const html = file.contents.toString();
-      if(html !== null){
+      if(typeof html === 'string'){
         const amp = ampify(html, {cwd: directory}).toString();
         file.contents = new Buffer(amp);
       };
