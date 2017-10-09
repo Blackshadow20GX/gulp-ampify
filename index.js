@@ -9,7 +9,8 @@ module.exports = function(directory){
     if(file.isStream()) return cb(new Error('gulp-html-to-amp: Streams not supported.'));
 
     const html = file.contents.toString();
-    const amp = ampify(html, {cwd: directory});
+    var amp = ampify(html, {cwd: directory});
+    amp = amp.toString();
     file.contents = new Buffer(amp);
     cb(null, file);
   });
