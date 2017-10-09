@@ -2,15 +2,21 @@
   "name": "gulp-html-to-amp",
   "version": "1.0.13",
   "description": "Gulp wrapper for HTML-to-AMP package",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo 'No tests found'"
+    "test": "echo 'No tests found'",
+    "prepublish": "mkdir -p dist && babel lib --out-dir dist"
   },
   "keywords": [
     "gulpplugin"
   ],
   "dependencies": {
     "html-to-amp": "^2.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-core": "^6.5.2",
+    "babel-preset-es2015": "^6.5.0"
   },
   "author": "Marc Hanley",
   "license": "MIT",
