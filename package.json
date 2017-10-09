@@ -4,8 +4,7 @@
   "description": "Gulp wrapper for HTML-to-AMP package",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo 'No tests found'",
-    "prepublish": "mkdir -p dist && babel lib --out-dir dist"
+    "test": "echo 'No tests found'"
   },
   "keywords": [
     "gulpplugin"
