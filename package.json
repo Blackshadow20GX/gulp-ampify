@@ -1,6 +1,6 @@
 {
   "name": "gulp-html-to-amp",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "Gulp wrapper for HTML-to-AMP package",
   "main": "dist/index.js",
   "scripts": {
