@@ -11,7 +11,11 @@ module.exports = function(directory){
     const html = file.contents.toString();
     var amp = ampify(html, {cwd: directory});
     amp = amp.toString();
+    try{
     file.contents = new Buffer(amp);
+    }
+    catch(error){ //Ignores invalid files put through ampify
+    };
     cb(null, file);
   });
 };
