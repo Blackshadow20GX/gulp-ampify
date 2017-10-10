@@ -1,6 +1,6 @@
 {
   "name": "gulp-ampify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gulp wrapper for Ampify package",
   "main": "index.js",
   "scripts": {
